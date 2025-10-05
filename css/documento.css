@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Code:wght@300..700&family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.h3_doc {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgba(0, 8, 38, 0.8)
+}
+
+.inputContainer {
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+   
+    border: 1px solid rgba(1, 1, 43, 0.548);
+}
+
+.inputContainer > input {
+    border: none;
+    width: 90%;
+    padding: 5px;
+    outline: 0;
+    background: transparent;
+}
+
+.inputContainer > input::placeholder {
+    font-size:1rem;
+}
+
+
+
+.inputContainerHover:hover {
+    box-shadow: 0 0 3px 2px rgb(175, 175, 175);
+}
+
+form {
+    width: 80%;
+}
+
+form > * {
+    margin: 10px;
+}
+
+.continuar {
+    color: rgba(95, 95, 95, 0.877);
+    padding: 10px;
+    width: 100%;
+    background: rgba(190, 190, 190, 0.644);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.error {
+    color: rgb(206, 56, 73);
+    font-weight: 600;
+    font-size: .75rem;
+    letter-spacing: .025rem;
+    font-family: 'Roboto',sans-serif;
+}
+
+.errorContainer {
+    border: 1px solid red;
+    
+}
+
+.errorContainer:hover {
+    box-shadow: 0;
+}
