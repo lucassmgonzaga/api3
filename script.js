@@ -163,7 +163,7 @@ class SerasaChatbot {
 
     <ul style="list-style:none;padding:0;margin:2px 0;">
       <li style="margin-bottom:2px;">Acordo: Gerido pela Serasa.</li>
-      <li style="margin-bottom:2px;">Valor: R$ <span style="font-weight:bold;color:#ff007f;">76,98</span>.</li>
+      <li style="margin-bottom:2px;">Valor: R$ <span style="font-weight:bold;color:#ff007f;">88,47</span>.</li>
       <li style="margin-bottom:2px;">Pagamento: <strong>PIX</strong>.</li>
       <li style="margin-bottom:2px;">Válido até: <span style="font-weight:bold;color:#ff007f;">${datahoje}</span>.</li>
     </ul>
