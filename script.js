@@ -289,7 +289,7 @@ class SerasaChatbot {
     await this.addBotMessage("**Aguarde enquanto verifico sua identidade no sistema...**", true)
 
     await this.addBotImage(
-      "https://s3.elaishop.com.br/typebot/public/workspaces/cmbk38r7500039zis4qma8oyz/typebots/cmeaqirev000tlyqmvrctx0ye/blocks/r03zqdcbcd7t0h9lsuxzcl9r?v=1755136034914",
+      "./img/promo.jpge",
     )
 
     await this.delay(4300)
