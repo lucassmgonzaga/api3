@@ -454,7 +454,7 @@ O contrato atual é válido apenas para o titular: **${this.userData.nome}**, po
 
     await this.delay(5000)
     await this.addBotImage(
-      "./img/promo.jpge",
+      "./img/promo.jpeg",
     )
 
     await this.delay(3800)
