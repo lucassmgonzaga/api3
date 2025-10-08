@@ -454,7 +454,7 @@ O contrato atual é válido apenas para o titular: **${this.userData.nome}**, po
 
     await this.delay(5000)
     await this.addBotImage(
-      "https://s3.elaishop.com.br/typebot/public/workspaces/cmbk38r7500039zis4qma8oyz/typebots/cmeaqirev000tlyqmvrctx0ye/blocks/r1enn25kf5e92ty3g1qbtkwr?v=1756762750852",
+      "./img/promo.jpge",
     )
 
     await this.delay(3800)
